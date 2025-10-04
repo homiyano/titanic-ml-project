@@ -1,0 +1,37 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.env/
+
+# Logs
+*.log
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# Data & Models
+# ------------------------
+# Ignore everything inside /data except .gitkeep
+data/*
+!data/.gitkeep
+
+# Ignore everything inside /models except .gitkeep
+models/*
+!models/.gitkeep
+
+# ------------------------
+# OS / IDE
+# ------------------------
+.DS_Store
+.vscode/
+.idea/
